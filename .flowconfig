@@ -1,0 +1,15 @@
+[libs]
+flow-typed
+
+[options]
+;; Experimental features
+esproposal.nullish_coalescing=enable
+
+;; Enforce strict mode for all modules
+module.use_strict=true
+
+[strict]
+nonstrict-import
+unclear-type
+untyped-import
+untyped-type-import

@@ -1,0 +1,42 @@
+{
+  "name": "@soulofmischief/js-utils",
+  "version": "0.1.1",
+  "description": "A small, utilitarian JS library for personal use.",
+  "main": "lib/index.js",
+  "repository": "https://github.com/soulofmischief/js-utils",
+  "author": "soulofmischief <soulofmischief@protonmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run clean --scripts-prepend-node-path; for script in {flow,lib}; do npm run build:$script --scripts-prepend-node-path; done",
+    "build:dev": "NODE_ENV=development nodemon -w src --exec 'yarn build'",
+    "build:flow": "flow-copy-source src lib",
+    "build:lib": "babel src -d lib",
+    "clean": "npx rimraf lib",
+    "lint:flow": "npx flow status",
+    "lint:flow:stop": "npx flow stop",
+    "preinstall": "npm run prepublish",
+    "prepublish": "npm run build --scripts-prepend-node-path"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.11.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-flowtype": "^3.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "flow-bin": "^0.97.0",
+    "flow-copy-source": "^2.0.3",
+    "rimraf": "^2.6.3"
+  },
+  "dependencies": {
+    "src": "^1.1.2"
+  }
+}
