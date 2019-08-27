@@ -1,6 +1,6 @@
 {
   "name": "@soulofmischief/js-utils",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A small, utilitarian JS library for personal use.",
   "main": "lib/index.js",
   "repository": "https://github.com/soulofmischief/js-utils",
