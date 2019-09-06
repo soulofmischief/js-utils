@@ -15,7 +15,8 @@
     "lint:flow": "npx flow status",
     "lint:flow:stop": "npx flow stop",
     "preinstall": "npm run prepublish",
-    "prepublish": "npm run build --scripts-prepend-node-path"
+    "prepublish": "npm run build --scripts-prepend-node-path",
+    "test": "babel-node node_modules/.bin/ospec"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",
@@ -34,6 +35,7 @@
     "eslint-plugin-standard": "^4.0.0",
     "flow-bin": "^0.97.0",
     "flow-copy-source": "^2.0.3",
+    "ospec": "^4.0.1",
     "rimraf": "^2.6.3"
   }
 }
