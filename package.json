@@ -9,7 +9,7 @@
   "scripts": {
     "build": "npm run clean --scripts-prepend-node-path; for script in {flow,lib}; do npm run build:$script --scripts-prepend-node-path; done",
     "build:dev": "NODE_ENV=development nodemon -w src --exec 'yarn build'",
-    "build:flow": "flow-copy-source src lib",
+    "build:flow": "npx flow-copy-source src lib",
     "build:lib": "babel src -d lib",
     "clean": "npx rimraf lib",
     "lint:flow": "npx flow status",
