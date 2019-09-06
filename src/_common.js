@@ -4,6 +4,6 @@
 
 // Performance API
 export const { performance } =
-  typeof window === 'undefined'
-    ? require( 'perf_hooks' )
-    : window
+  typeof window === 'object'
+    ? window
+    : eval( 'require("perf_hooks")' )
