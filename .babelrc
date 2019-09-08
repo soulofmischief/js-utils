@@ -3,5 +3,5 @@
     "@babel/env",
     "@babel/flow"
   ],
-  "plugins": []
+  "plugins": ["lodash"]
 }
