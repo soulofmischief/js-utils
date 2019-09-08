@@ -63,6 +63,7 @@ rules:
   - error
   - single
   - allowTemplateLiterals: true
+    avoidEscape: true
 
   semi: 0
   space-in-parens:
