@@ -6,11 +6,11 @@ import { performance } from '../src/_common'
 o.spec( 'isStale', function () {
   o( 'yes', function () {
     o( isStale( performance.now() - 10, 1 ))
-      .equals(true )
+      .equals( true )
   })
 
   o( 'no', function () {
     o( isStale( performance.now() - 10, 15 ))
-      .equals(false )
+      .equals( false )
   })
 })
