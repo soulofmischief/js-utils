@@ -1,1 +1,2 @@
 import './isStale'
+import './merge'
