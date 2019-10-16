@@ -17,7 +17,7 @@
     "clean": "npx rimraf lib",
     "lint:flow": "npx flow status",
     "lint:flow:stop": "npx flow stop",
-    "prepublish": "npm run build --scripts-prepend-node-path",
+    "prepublishOnly": "npm run build --scripts-prepend-node-path",
     "test": "babel-node node_modules/.bin/ospec"
   },
   "devDependencies": {
