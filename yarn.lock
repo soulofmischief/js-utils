@@ -692,6 +692,13 @@
     pirates "^4.0.0"
     source-map-support "^0.5.9"
 
+"@babel/runtime@^7.6.2":
+  version "7.6.3"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.3.tgz#935122c74c73d2240cafd32ddb5fc2a6cd35cf1f"
+  integrity sha512-kq6anf9JGjW8Nt5rYfEuGRaEAaH1mkv3Bbu6rYvLOpPh/RusSJXuKPEAoZ7L7gybZkchE8+NV5g9vKF4AGAtsA==
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
 "@babel/template@^7.1.0", "@babel/template@^7.4.4":
   version "7.4.4"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.4.4.tgz#f4b88d1225689a08f5bc3a17483545be9e4ed237"
@@ -734,10 +741,20 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@soulofmischief/array.js@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@soulofmischief/array.js/-/array.js-0.3.1.tgz#8c76a7a7644412e296016e03ad8b0899f03565aa"
-  integrity sha512-+vGUyoaK7/RShodW8B+mE8rLKQDLanqV9gM6h1furzEaAKjvO/DoG2wYm43iwfoIfa0BFSg6Le336Dt/n3CJvQ==
+"@soulofmischief/array.js@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@soulofmischief/array.js/-/array.js-0.4.0.tgz#fc65bbc23bc1e6b6dca124dc412422785e8b607b"
+  integrity sha512-1MQosq448i8d9wuZtrSqqpifKA+BzfXHRaRwfxxJb1sracRd1Q/pOuNMTlVBwuyycjvDRpDdZ7YjEmErGt7cgw==
+  dependencies:
+    "@babel/runtime" "^7.6.2"
+    "@soulofmischief/js-utils" "^0.4.4"
+
+"@soulofmischief/js-utils@^0.4.4":
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/@soulofmischief/js-utils/-/js-utils-0.4.4.tgz#a84c2c64d1cabf2c831b848d9ec82fade256e1c4"
+  integrity sha512-lGDG7ZdAt37ErtuwjO1UKGx47zSm7bs78FUkRro9lXwoPRZ/QI3JVWFEm10PLrulO1boqvOU6MN2vOlHia6Kvg==
+  dependencies:
+    lodash "^4.17.15"
 
 abbrev@1:
   version "1.1.1"
