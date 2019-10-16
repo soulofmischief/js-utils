@@ -43,8 +43,8 @@ rules:
 
   max-len:
   - 1
-  - code: 79
-    comments: 79
+  - code: 80
+    comments: 80
     ignoreUrls: true
 
   max-statements:
@@ -52,6 +52,7 @@ rules:
   - 40
 
   no-console: 1
+  no-loop-func: 2
   no-sequences: 2
   no-trailing-spaces: 0
   no-use-before-define:
