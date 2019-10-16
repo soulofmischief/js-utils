@@ -14,13 +14,13 @@ export function remapProp(
 ) {
 
   // Clone object.
-  const clone = clone( obj )
+  const c = clone( obj )
 
   // Remap property.
-  clone[ newProperty ] = clone[ oldProperty ]
+  c[ newProperty ] = c[ oldProperty ]
 
   // Options
-  if ( del ) delete clone[ oldProperty ]
+  if ( del ) delete c[ oldProperty ]
 
-  return clone
+  return c
 }
