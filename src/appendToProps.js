@@ -1,5 +1,5 @@
 // @flow strict
-import { toObject } from '@soulofmischief/array.js/lib/reduce'
+import { toObject } from '@soulofmischief/array.js/reduce'
 
 
 /**
