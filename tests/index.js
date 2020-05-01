@@ -1,2 +1,0 @@
-import './isStale'
-import './merge'
