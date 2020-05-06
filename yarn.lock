@@ -830,6 +830,14 @@
     "@babel/runtime" "^7.9.6"
     "@soulofmischief/js-utils" "^0.7.1"
 
+"@soulofmischief/array.js@^0.11.8":
+  version "0.11.8"
+  resolved "https://registry.yarnpkg.com/@soulofmischief/array.js/-/array.js-0.11.8.tgz#cb8697f5a613025f9891501f706572fa6744af4e"
+  integrity sha512-kWKDkxYiJJTiZpLdjn3w6Crl9/8GJTLpGH6XvW91vhIb+QSIuSzu5coQqfi/2Cy03z6dY4HRxwDhRzjdrcaNqw==
+  dependencies:
+    "@babel/runtime" "^7.9.6"
+    "@soulofmischief/js-utils" "^0.8.1"
+
 "@soulofmischief/array.js@^0.5.0", "@soulofmischief/array.js@^0.5.1":
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@soulofmischief/array.js/-/array.js-0.5.1.tgz#8e9f5c707cc43984448c740e288a9a50686ed0af"
@@ -848,6 +856,16 @@
     "@soulofmischief/js-utils" "^0.5.3"
     lodash "^4.17.15"
 
+"@soulofmischief/async.js@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@soulofmischief/async.js/-/async.js-1.2.0.tgz#9a2d5122b1c09b82cb7ddb1d14688449273f7589"
+  integrity sha512-la1+KqeHUuP4i93om2LbolsrEBEFjxrTSm69475RxKmzGk4sn0bLDrZRh7j+nYZAW1Z2qaT68YzNweeHSErQaA==
+  dependencies:
+    "@babel/runtime" "^7.9.6"
+    "@soulofmischief/array.js" "^0.11.8"
+    "@soulofmischief/js-utils" "^0.8.1"
+    lodash "^4.17.15"
+
 "@soulofmischief/js-utils@^0.5.3":
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/@soulofmischief/js-utils/-/js-utils-0.5.3.tgz#6fb9b7e39f49e9a9f3238858703585fdfca985fd"
@@ -862,6 +880,15 @@
   integrity sha512-VRLgWIPC1sQTkGESOhUGbg1RFsWR3zwHbfiMMQdvOLuaCTwulZ0RNTgg8eLZszRBxcopZr/7Osc8hPmympWgcQ==
   dependencies:
     "@soulofmischief/array.js" "^0.11.5"
+    "@soulofmischief/async.js" "^1.1.2"
+    lodash "^4.17.15"
+
+"@soulofmischief/js-utils@^0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@soulofmischief/js-utils/-/js-utils-0.8.1.tgz#b5f2dcdf240409dd50e4fa68225b0b7d505c9736"
+  integrity sha512-K+EEuCSGfVOOIBu/l5wIRA8y4fQEWE17ugAPzkopt6XxjVeotYi+rLweB/xyjMoCIlwAxCpyQlA+C5ux+gJ2yw==
+  dependencies:
+    "@soulofmischief/array.js" "^0.11.7"
     "@soulofmischief/async.js" "^1.1.2"
     lodash "^4.17.15"
 
