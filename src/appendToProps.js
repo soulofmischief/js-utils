@@ -16,5 +16,5 @@ export function appendToProps(
     // Append string to entry value
     /* $FlowFixMe coerce */
     [ p[0], `${ p[1] }${ value }` ]
-  ).reduce( toObject, {})
+  ).reduce( ...toObject )
 }

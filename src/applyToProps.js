@@ -17,5 +17,5 @@ export function applyToProps(
         ? [ entry[0], applyToProps( entry[1], cb, context )]
         : [ entry[0], context ? cb.call( context, entry[1]) : cb( entry[1])]
     })
-    .reduce( toObject, {})
+    .reduce( ...toObject )
 }
