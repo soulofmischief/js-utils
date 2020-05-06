@@ -11,6 +11,5 @@ export function changeEntries (
   o: {},
   cb: ( e: [ string | Symbol, * ], i: number ) => *,
 ) {
-  console.debug( 'ENTRIES:::', Object.entries( o ).map( cb ))
   return Object.fromEntries( Object.entries( o ).map( cb ))
 }
