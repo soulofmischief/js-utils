@@ -1,6 +1,6 @@
 // @flow strict
 import { isObject } from './isObject'
-import { toObject } from '@soulofmischief/array.js'
+import { toObject } from '@soulofmischief/array.js/reduce'
 
 
 /**
