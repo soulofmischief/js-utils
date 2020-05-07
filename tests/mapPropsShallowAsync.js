@@ -8,7 +8,7 @@ const
   fAsync = async x => f( x )
 
 
-o.spec( 'mapPropsShallowAsync', function() {
+o.spec( 'mapPropsShallowAsync', () => {
   o( 'works', async function() {
     o( await mapPropsShallowAsync( obj, key => fAsync( key )))
       .deepEquals( mapPropsShallow( obj, key => f( key )))

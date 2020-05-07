@@ -3,12 +3,12 @@ import { mapPropsShallow } from '../src'
 
 
 const
-  obj = { x: 1, y: 2 },
-  f = ( x ) => x
+  obj = { a: 1, b: 2 },
+  f = x => x
 
 
-o.spec( 'mapPropsShallow', function() {
+o.spec( 'mapPropsShallow', () => {
   o( 'works', function() {
-    o( mapPropsShallow( obj, key => f( key ))).deepEquals( obj )
+    o( mapPropsShallow( obj, f )).deepEquals( obj )
   })
 })
