@@ -7,5 +7,5 @@ export function mapPropsShallow( o: Object, cb: () => * ) {
     .entries( o )
     //.map(([ k, v ]) => ({[ k ]: cb( v )}))
     .map(([ k, v ]) => ([ k, cb( v )]))
-    .reduce( ...toObject )
+    .reduce( ...toObject())
 }

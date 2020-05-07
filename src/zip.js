@@ -4,5 +4,5 @@ import { toObject } from '@soulofmischief/array.js/reduce'
 
 /** Reduce a pair of key and value lists into an object. */
 export function zip( keys, values ) {
-  return makeEntries( keys, values ).reduce( ...toObject )
+  return makeEntries( keys, values ).reduce( ...toObject())
 }
