@@ -3,7 +3,7 @@
 
 export function throttle(
   func: () => *,
-  wait: number,
+  wait: number = 1000, //ms
   options: {
     leading: boolean,
     trailing: boolean,
