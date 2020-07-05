@@ -8,7 +8,7 @@ const
 
 
 o.spec( 'mapPropsShallow', () => {
-  o( 'works', function() {
+  o( 'works', () => {
     o( mapPropsShallow( obj, f )).deepEquals( obj )
   })
 })
