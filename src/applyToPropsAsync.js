@@ -1,5 +1,5 @@
 // @flow strict
-import { isPromise } from '@soulofmischief/async.js'
+import { isPromise } from '@soulofmischief/async.js/isPromise'
 import { isObject } from './isObject'
 import { zip } from './zip'
 

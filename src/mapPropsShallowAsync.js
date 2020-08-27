@@ -1,5 +1,5 @@
 // @flow strict
-import { resolveProps } from '@soulofmischief/async.js'
+import { resolveProps } from '@soulofmischief/async.js/resolveProps'
 import { mapPropsShallow } from './mapPropsShallow'
 
 
