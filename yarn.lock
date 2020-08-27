@@ -838,6 +838,14 @@
     "@babel/runtime" "^7.9.6"
     "@soulofmischief/js-utils" "^0.8.2"
 
+"@soulofmischief/array.js@^0.13.0":
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/@soulofmischief/array.js/-/array.js-0.13.0.tgz#4a465f11b7609a21998813d68985f0b4b2be12bc"
+  integrity sha512-ifVO7bUROUfbmiUfdPRvIfimfJ4OIftqlBMlUppOEqkSI4I95FWNjUNdb+xjv4GDGRRfb3To1qMlPMypjk56Gw==
+  dependencies:
+    "@babel/runtime" "^7.9.6"
+    "@soulofmischief/js-utils" "^0.11.2"
+
 "@soulofmischief/async.js@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@soulofmischief/async.js/-/async.js-1.2.0.tgz#9a2d5122b1c09b82cb7ddb1d14688449273f7589"
