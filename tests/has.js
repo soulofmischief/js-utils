@@ -5,12 +5,12 @@ import { has } from '../src'
 const obj = { x: 1, y: 2 }
 
 
-o.spec( 'has', function() {
+o.spec( 'regular', function() {
   o( 'has key', function() {
-    o( obj::has( 'x' )).equals( true )
+    o( has( obj, 'x' )).equals( true )
   })
 
   o( 'missing key', function() {
-    o( obj::has( 'z' )).equals( false )
+    o( has( obj, 'z' )).equals( false )
   })
 })

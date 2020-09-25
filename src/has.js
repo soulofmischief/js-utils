@@ -2,10 +2,10 @@
 
 
 /**
- * Determine if an object bound to `this` contains a particular key.
+ * Determine if an object contains a particular key.
+ * @param {Object|*} obj Object to search.
  * @param {*} key Property to search for.
  */
-
-export function has ( key: * ) {
-  return Object.prototype.hasOwnProperty.call( this, key )
+export function has ( obj, key: * ) {
+  return Object.prototype.hasOwnProperty.call( obj, key )
 }
