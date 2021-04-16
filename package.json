@@ -23,32 +23,32 @@
     "test": "babel-node node_modules/.bin/ospec"
   },
   "devDependencies": {
-    "@babel/cli": "^7.11.6",
-    "@babel/core": "^7.11.6",
-    "@babel/node": "^7.10.5",
-    "@babel/plugin-proposal-function-bind": "^7.11.5",
-    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.10.4",
-    "@babel/preset-env": "^7.11.5",
-    "@babel/preset-flow": "^7.10.4",
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
+    "@babel/node": "^7.13.13",
+    "@babel/plugin-proposal-function-bind": "^7.12.13",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.13.8",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-flow": "^7.13.13",
     "babel-eslint": "^10.1.0",
     "babel-plugin-lodash": "^3.3.4",
-    "eslint": "^7.9.0",
-    "eslint-config-standard": "^14.1.1",
+    "eslint": "^7.24.0",
+    "eslint-config-standard": "^16.0.2",
     "eslint-plugin-babel": "^5.3.1",
-    "eslint-plugin-flowtype": "^5.2.0",
-    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-flowtype": "^5.7.1",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "flow-bin": "^0.134.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "flow-bin": "^0.148.0",
     "flow-copy-source": "^2.0.9",
     "ospec": "^4.1.1",
     "rimraf": "^3.0.2",
-    "yarn": "^1.22.5"
+    "yarn": "^1.22.10"
   },
   "dependencies": {
-    "@soulofmischief/array.js": "^0.13.0",
-    "@soulofmischief/async.js": "^1.5.0",
-    "lodash": "^4.17.20"
+    "@soulofmischief/array.js": "^0.16.0",
+    "@soulofmischief/async.js": "^2.0.0",
+    "lodash": "^4.17.21"
   }
 }
