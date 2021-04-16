@@ -1,5 +1,4 @@
-// @flow strict
 
-export function flip( x: number ) {
-  return Math.random() < ( x || 0.5 )
+export function flip( x = 0.5 ) {
+  return Math.random() < x
 }
