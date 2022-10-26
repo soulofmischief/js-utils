@@ -96,6 +96,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@soulofmischief/array.js@npm:^0.19.5":
+  version: 0.19.5
+  resolution: "@soulofmischief/array.js@npm:0.19.5"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    "@soulofmischief/js-utils": ^0.18.6
+    lodash: ^4.17.21
+  checksum: 2545e41c6022e5731ee1aa4b35a5068233c4f55110d80d8f75eaf4080345552c94af2dc7e87ffd0121e366ca504f35849397be31919885d55dbdd699ee3ecd6e
+  languageName: node
+  linkType: hard
+
 "@soulofmischief/array.js@npm:^0.22.0":
   version: 0.22.0
   resolution: "@soulofmischief/array.js@npm:0.22.0"
@@ -143,28 +154,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@soulofmischief/js-utils@^0.18.6, @soulofmischief/js-utils@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@soulofmischief/js-utils@workspace:."
-  dependencies:
-    "@soulofmischief/array.js": ^0.22.0
-    "@soulofmischief/async.js": ^5.0.0
-    "@soulofmischief/strings": ^0.8.0
-    eslint: ^7.32.0
-    eslint-config-standard: ^16.0.3
-    eslint-plugin-babel: ^5.3.1
-    eslint-plugin-flowtype: ^5.9.2
-    eslint-plugin-import: ^2.24.2
-    eslint-plugin-node: ^11.1.0
-    eslint-plugin-promise: ^5.1.0
-    eslint-plugin-standard: ^5.0.0
-    lodash-es: ^4.17.21
-    ospec: ^4.1.6
-    rimraf: ^3.0.2
-    yarn: ^1.22.11
-  languageName: unknown
-  linkType: soft
-
 "@soulofmischief/js-utils@npm:^0.13.0, @soulofmischief/js-utils@npm:^0.13.1":
   version: 0.13.1
   resolution: "@soulofmischief/js-utils@npm:0.13.1"
@@ -186,6 +175,39 @@ __metadata:
   checksum: 11efee1a672dcbcb8f2a7731416b27dbb074526c9d4244da59a555a16a63d56177eccd74c1ad8008005080435f6998fd8333928c0787f269a339406d8beb0891
   languageName: node
   linkType: hard
+
+"@soulofmischief/js-utils@npm:^0.18.6":
+  version: 0.18.7
+  resolution: "@soulofmischief/js-utils@npm:0.18.7"
+  dependencies:
+    "@soulofmischief/array.js": ^0.19.5
+    "@soulofmischief/async.js": ^5.0.0
+    lodash: ^4.17.21
+  checksum: 49e50355d214c027dc3f1964670c4965e02c4d5612f91389608d26329c86c6d2e34740bdbeed5c2e59d41d66d2ea161246969bc52f8b631a9392b43424ce4ac4
+  languageName: node
+  linkType: hard
+
+"@soulofmischief/js-utils@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@soulofmischief/js-utils@workspace:."
+  dependencies:
+    "@soulofmischief/array.js": ^0.22.0
+    "@soulofmischief/async.js": ^5.0.0
+    "@soulofmischief/strings": ^0.8.0
+    eslint: ^7.32.0
+    eslint-config-standard: ^16.0.3
+    eslint-plugin-babel: ^5.3.1
+    eslint-plugin-flowtype: ^5.9.2
+    eslint-plugin-import: ^2.24.2
+    eslint-plugin-node: ^11.1.0
+    eslint-plugin-promise: ^5.1.0
+    eslint-plugin-standard: ^5.0.0
+    lodash-es: ^4.17.21
+    ospec: ^4.1.6
+    rimraf: ^3.0.2
+    yarn: ^1.22.11
+  languageName: unknown
+  linkType: soft
 
 "@soulofmischief/regex@npm:^0.3.0":
   version: 0.3.0
