@@ -1,5 +1,5 @@
 import o from 'ospec'
-import { isTruthyOrZero } from '../src'
+import { isTruthyOrZero } from '../index.js'
 
 
 o.spec( 'isTruthyOrZero', function() {

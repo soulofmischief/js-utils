@@ -1,5 +1,5 @@
 import o from 'ospec'
-import { mapPropsShallow, mapPropsShallowAsync } from '../src'
+import { mapPropsShallow, mapPropsShallowAsync } from '../index.js'
 
 
 const

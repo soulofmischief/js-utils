@@ -1,5 +1,5 @@
 import o from 'ospec'
-import { has } from '../src'
+import { has } from '../index.js'
 
 
 const obj = { x: 1, y: 2 }

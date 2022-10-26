@@ -1,5 +1,5 @@
 import o from 'ospec'
-import { prependToProps } from '../src'
+import { prependToProps } from '../index.js'
 
 
 const

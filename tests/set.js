@@ -1,5 +1,5 @@
 import o from 'ospec'
-import { get, set } from '../src'
+import { get, set } from '../index.js'
 
 
 let obj = {}

@@ -1,5 +1,5 @@
 import o from 'ospec'
-import { returnTrue } from '../src'
+import { returnTrue } from '../index.js'
 
 
 o( 'returns true', function() {

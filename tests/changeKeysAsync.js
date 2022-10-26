@@ -1,5 +1,5 @@
 import o from 'ospec'
-import { changeKeys, changeKeysAsync } from '../src'
+import { changeKeys, changeKeysAsync } from '../index.js'
 
 
 const

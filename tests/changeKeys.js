@@ -1,5 +1,5 @@
 import o from 'ospec'
-import { changeKeys } from '../src'
+import { changeKeys } from '../index.js'
 
 
 const

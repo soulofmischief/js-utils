@@ -1,5 +1,5 @@
 import o from 'ospec'
-import { getTypes } from '../src'
+import { getTypes } from '../index.js'
 
 
 const

@@ -1,6 +1,5 @@
 import o from 'ospec'
-import { isStale } from '../src'
-import { performance } from '../src/_common'
+import { isStale } from '../index.js'
 
 
 o.spec( 'isStale', function () {

@@ -1,5 +1,5 @@
 import o from 'ospec'
-import { changeValues, changeValuesAsync } from '../src'
+import { changeValues, changeValuesAsync } from '../index.js'
 
 
 const

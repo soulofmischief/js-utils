@@ -1,5 +1,5 @@
 import o from 'ospec'
-import { merge } from '../src'
+import { merge } from '../index.js'
 
 
 const
