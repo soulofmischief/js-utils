@@ -1,10 +1,11 @@
 
-export function profile( message, callback ) {
+//eslint-disable-next-line no-console
+export function profile( message, callback, logger = console.log ) {
   const
     time = performance.now(),
     result = callback()
 
-  console.log( message, performance.now() - time )
+  logger( message, performance.now() - time )
 
   return result
 }
