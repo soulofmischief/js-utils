@@ -1,6 +1,3 @@
-// @flow strict
-
-
 export { addPropsToClass } from './addPropsToClass.js'
 export { appendToProps } from './appendToProps.js'
 export { applyToProps } from './applyToProps.js'
